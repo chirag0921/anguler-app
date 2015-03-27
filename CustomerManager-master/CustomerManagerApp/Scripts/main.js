@@ -22,5 +22,5 @@ require(
         'app/customersApp/controllers/orders/orderChildController',
     ],
     function () {
-        angular.bootstrap(document, ['app/customersApp']);
+        angular.bootstrap(document, ['customersApp']);
     });

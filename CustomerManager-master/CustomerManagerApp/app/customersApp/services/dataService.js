@@ -1,7 +1,7 @@
 'use strict';
 
-define(['app/app', 'customersApp/services/customersBreezeService',
-        'customersApp/services/customersService'], function (app) {
+define(['app/app', 'app/customersApp/services/customersBreezeService',
+        'app/customersApp/services/customersService'], function (app) {
 
     var injectParams = ['config', 'customersService', 'customersBreezeService'];
 
